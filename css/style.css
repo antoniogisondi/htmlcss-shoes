@@ -9,11 +9,15 @@ header{
     width: 100%;
     background-color: rgba(255,0,0,255);
     padding-top: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .h-contain{
     width:calc(100% - 40px);
-    margin: 0 20px;
+    margin: 0 20px 10px;
     display: flex;
     justify-content: flex-end;
 }
