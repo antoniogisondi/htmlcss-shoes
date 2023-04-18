@@ -2,13 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* HEADER */
+header{
+    width: 100%;
+    background-color: rgba(255,0,0,255);
+    padding-top: 30px;
 }
 
+.h-contain{
+    width:calc(100% - 40px);
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    padding: 14px 16px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 15px;
+    font-weight: 900;
+}
+/* END HEADER */
+
+/* UTILITIES */
 .container{
     height: 100vh;
     width: 100%;
     position: relative;
-    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .red{
@@ -22,22 +45,25 @@
 .yellow{
     background-color: rgba(255,255,0,255);
 }
+/* END UTILITIES */
 
-.contain{
+/* FIRST LAYOUT */
+.first-contain{
     position: absolute;
     left: 25%;
 }
-
-.contain img{
-    width: 800px
-}
-
-
 
 .red-title{
     text-align: center;
     font-size: 50px;
     color:rgba(255,255,0,255) ;
+}
+/* END FIRST LAYOUT */
+
+/* SECOND LAYOUT */
+.second-contain{
+    position: absolute;
+    left: 25%;
 }
 
 .green-title{
@@ -45,9 +71,26 @@
     font-size: 50px;
     color: rgba(255,255,0,255) ;
 }
+/* END SECOND LAYOUT */
+
+/* THIRD LAYOUT */
+.third-contain{
+    position: absolute;
+    left: 25%;
+    top: 10%; 
+}
 
 .yellow-title{
     color: rgba(0,128,0,255);
     text-align: center;
     font-size: 50px;
 }
+/* END THIRD LAYOUT */
+
+
+
+
+
+
+
+
